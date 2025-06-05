@@ -9,7 +9,7 @@ import dash_bootstrap_components as dbc
 import pandas as pd  
 import plotly.express as px  
 
-df = pd.read_csv("/Users/rubiherso/Downloads/HRDataset_v14.csv") 
+df = pd.read_csv("HRDataset_v14.csv") 
 
 # Extraemos las columnas del DataFrame 
 columnas = df.columns  
